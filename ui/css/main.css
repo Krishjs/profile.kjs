@@ -108,6 +108,10 @@ h1 {
     margin: 0px;
 }
 
+.card:hover{
+    border:dashed #CCC;
+}
+
 .gradution {
     height: 100%;
     display: flex;
@@ -136,4 +140,14 @@ h1 {
 
   .hide{
       display: none;
+  }
+
+  .slide-transform {
+    transition: transform 1000ms ease; 
+    transform: translate3d(0px, -50%, 0px);
+  }
+  .slider-frame{
+     height: 200%;
+     transition: transform 1000ms ease; 
+     transform: translate3d(0px, -50%, 0px);
   }
